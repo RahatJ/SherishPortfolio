@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.bg-custom{
+    background-image: url(./Images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg-theme, .btn-theme{
+background-color: darkgreen;
+}
+
+.text-theme{
+    color: darkgreen;
+}
+
+@media screen and (max-width: 480 px){
+    img.profile{
+        max-width: 30px;
+
+    }
+} 
